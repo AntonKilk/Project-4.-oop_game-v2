@@ -8,5 +8,7 @@ document.getElementById('btn__reset').addEventListener('click', () => {
 });
 
 const keys = document.querySelector('#qwerty');
-keys.addEventListener('click', game.handleInteraction);
+keys.addEventListener('click', (e) => {
+    game.handleInteraction(e.target);
+});
 
