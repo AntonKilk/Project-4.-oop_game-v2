@@ -7,8 +7,11 @@ document.getElementById('btn__reset').addEventListener('click', () => {
     game.startGame();
 });
 
-const keys = document.querySelector('#qwerty');
-keys.addEventListener('click', (e) => {
-    game.handleInteraction(e.target);
+const keys = document.querySelectorAll('.key');
+keys.forEach(key => {
+    key.addEventListener('click', (e) => {
+        game.handleInteraction(e.target);
+    });
 });
+
 

@@ -15,9 +15,10 @@ class Game {
         const listOfPhrases = [
             {phrase: "Life is like a box of chocolates"},
             {phrase: "Hasta la vista baby"},
-            {phrase: "We will rock you"},
-            {phrase: "I am an alien"},
-            {phrase: "this is phrase five"}
+            {phrase: "All you can eat"},
+            {phrase: "A drop in the ocean"},
+            {phrase: "A chain is only as strong as its weakest link"},
+            {phrase: "Say cheese"}
         ];
         return listOfPhrases;
     }
