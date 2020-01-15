@@ -1,6 +1,6 @@
 # Phrase Hunter
 
-## FSJS Techdegree Project 5 (teamtreehouse.com)
+## FSJS Techdegree Project 4 (teamtreehouse.com)
 
 ### Author: Anton Kilk
 
